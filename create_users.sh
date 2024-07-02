@@ -13,8 +13,8 @@ if [ -z "$1" ]; then
 fi
 
 input_file="$1"
-log_file="/var/log/user_mgt.log"
-password_file="/var/secure/user_passwords.csv"
+log_file="/var/log/user_management.log"
+password_file="/var/secure/user_passwords.txt"
 
 mkdir -p "$(dirname "$log_file")"
 touch "$log_file"
